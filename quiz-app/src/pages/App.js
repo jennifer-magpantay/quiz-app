@@ -1,5 +1,14 @@
+// STYLE
+import "../style/app.scss";
+// COMPONENTS
+import { Template } from "./Template";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Template />
+    </>
+  );
 }
 
 export default App;

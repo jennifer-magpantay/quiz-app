@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export const Spinning = () => {
-    return (
-        <div>
-            <p>Loading...</p>
-        </div>
-    )
-}
+  return (
+    <>
+      <p>Loading...</p>
+      <div className="loader"></div>
+    </>
+  );
+};

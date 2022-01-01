@@ -1,0 +1,7 @@
+@use '../helpers/' as *;
+
+main {
+    height: 80vh;
+    padding: $padding;  
+    border-bottom: 1px solid $color-gray;  
+}
