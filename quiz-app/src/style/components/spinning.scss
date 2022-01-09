@@ -1,7 +1,8 @@
 @use "../helpers/" as *;
 
-p {
+.loader--label{
     color: $color-gray;
+    text-transform: uppercase;
     animation: fading 10s ease-out infinite;
 }
 

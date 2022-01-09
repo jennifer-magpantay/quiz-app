@@ -4,7 +4,7 @@ export const Spinning = () => {
   return (
     <>
       <div className="loader"></div>
-      <p>Loading</p>
+      <p className="loader--label">Loading</p>
     </>
   );
 };

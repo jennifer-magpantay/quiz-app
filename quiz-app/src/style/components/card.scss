@@ -1,0 +1,13 @@
+@use "../helpers/" as *;
+
+.card {
+    width: 100%;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+    }
+}

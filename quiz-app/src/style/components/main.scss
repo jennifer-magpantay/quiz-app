@@ -1,12 +1,12 @@
 @use "../helpers/" as *;
 
 main {
-    height: 75vh;
+    min-height: 75vh;
     padding: $padding;
     border-bottom: 1px solid $color-gray;
 
     .main__container {
-        width: 80%;
+        width: min(100%, 500px);
         height: 100%;
         display: flex;
         align-items: center;
