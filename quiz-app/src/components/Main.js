@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export const Main = ({children}) => {
-    return (
-        <main>
-            {children}
-        </main>
-    )
-}
+export const Main = ({ children }) => {
+  return (
+    <main>
+      <div className="main__container">{children}</div>
+    </main>
+  );
+};

@@ -1,7 +1,18 @@
-@use '../helpers/' as *;
+@use "../helpers/" as *;
 
 main {
-    height: 80vh;
-    padding: $padding;  
-    border-bottom: 1px solid $color-gray;  
+    height: 75vh;
+    padding: $padding;
+    border-bottom: 1px solid $color-gray;
+
+    .main__container {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-inline: auto;
+        padding: 1rem 1.5rem;
+    }
 }
